@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_editar_dados"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="Editar dados"
+
+            />
+        <item
+            android:id="@+id/nav_fale_conosco"
+            android:icon="@drawable/ic_speaker_notes_black_24dp"
+            android:title="Fale Conosco" />
+        <item
+            android:id="@+id/nav_acompanhamento"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="Acompanhamento" />
+        <item
+            android:id="@+id/nav_cadastro"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Cadastro de Veículos" />
+        <item
+            android:id="@+id/nav_quem_somos"
+            android:icon="@drawable/ic_store_mall_directory_black_24dp"
+            android:title="Quem Somos?" />
+        <item
+            android:id="@+id/nav_sair"
+            android:title="Sair"
+
+            />
+        <!--android:onClick="Sair"-->
+
+    </group>
+
+
+</menu>
